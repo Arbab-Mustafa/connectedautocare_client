@@ -1,23 +1,11 @@
 {
   "version": 2,
-  "name": "connectedautocare-frontend",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "config": { "distDir": "dist" }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "env": {
-    "VITE_API_URL": "@api_url"
-  }
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
-
