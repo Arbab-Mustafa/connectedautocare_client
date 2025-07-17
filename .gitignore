@@ -1,0 +1,65 @@
+ 
+ 
+ # Node.js/Frontend (connectedautocare-clean/frontend)
+node_modules/
+pnpm-lock.yaml
+dist/
+dist-ssr/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+vite.config.ts.timestamp*
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python/Backend (backend)
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+*.egg
+instance/
+*.sqlite3
+*.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+*.lcov
+*.coverage
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Project-specific sensitive files
+#.env.example  # Uncomment if sensitive 
